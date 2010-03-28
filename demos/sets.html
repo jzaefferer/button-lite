@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>jQuery Button Lite Plugin Demo</title>
+	<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/themes/base/jquery-ui.css" rel="stylesheet" />
+	<link type="text/css" href="demos.css" rel="stylesheet" />
+	<style type="text/css">
+	#toolbar {
+		padding: 10px 4px;
+	}
+	</style>
+</head>
+<body>
+
+<div class="demo ui-buttonset">
+
+	<button class="ui-button ui-widget ui-state-default ui-corner-left ui-button-text-only" role="button"><span class="ui-button-text">Bold</span></button>
+	<button class="ui-button ui-widget ui-state-default ui-button-text-only" role="button"><span class="ui-button-text">Italic</span></button>
+	<button class="ui-button ui-widget ui-state-default ui-corner-right ui-button-text-only" role="button"><span class="ui-button-text">Underline</span></button>
+</div>
+
+<div class="demo">
+	<span class="ui-widget-header ui-corner-all" id="toolbar">
+		<span class="ui-buttonset">
+			<button id="beginning" class="ui-button ui-widget ui-state-default ui-corner-left ui-button-icon-only" role="button" aria-disabled="false" title="go to beginning"><span class="ui-button-icon-primary ui-icon ui-icon-seek-start"></span><span class="ui-button-text">go to beginning</span></button>
+			<button id="rewind" class="ui-button ui-widget ui-state-default ui-button-icon-only" role="button" aria-disabled="false" title="rewind"><span class="ui-button-icon-primary ui-icon ui-icon-seek-prev"></span><span class="ui-button-text">rewind</span></button>
+			<button id="play" class="ui-button ui-widget ui-state-default ui-button-icon-only" role="button" aria-disabled="false" title="pause"><span class="ui-button-icon-primary ui-icon ui-icon-pause"></span><span class="ui-button-text">pause</span></button>
+			<button id="stop" class="ui-button ui-widget ui-state-default ui-button-icon-only" role="button" aria-disabled="false" title="stop"><span class="ui-button-icon-primary ui-icon ui-icon-stop"></span><span class="ui-button-text">stop</span></button>
+			<button id="forward" class="ui-button ui-widget ui-state-default ui-button-icon-only" role="button" aria-disabled="false" title="fast forward"><span class="ui-button-icon-primary ui-icon ui-icon-seek-next"></span><span class="ui-button-text">fast forward</span></button>
+			<button id="end" class="ui-button ui-widget ui-state-default ui-corner-right ui-button-icon-only" role="button" aria-disabled="false" title="go to end"><span class="ui-button-icon-primary ui-icon ui-icon-seek-end"></span><span class="ui-button-text">go to end</span></button>
+		</span>
+	</span>
+</div>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.js"></script>
+<script type="text/javascript" src="../jquery.buttonlite.js"></script>
+<script type="text/javascript">
+$("button, input:submit, a", ".demo").buttonlite();
+</script>
+</body>
+</html>

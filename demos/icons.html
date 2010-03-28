@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>jQuery Button Lite Plugin Demo</title>
+	<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/themes/base/jquery-ui.css" rel="stylesheet" />
+	<link type="text/css" href="demos.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="demo">
+
+	<button title="Button with icon only" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-primary ui-icon ui-icon-locked"></span><span class="ui-button-text">Button with icon only</span></button>
+
+	<button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon"><span class="ui-button-icon-primary ui-icon ui-icon-locked"></span><span class="ui-button-text">Button with icon on the left</span></button>
+
+	<button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icons"><span class="ui-button-icon-primary ui-icon ui-icon-gear"></span><span class="ui-button-text">Button with two icons</span><span class="ui-button-icon-secondary ui-icon ui-icon-triangle-1-s"></span></button>
+
+	<button title="Button with two icons and no text" aria-disabled="false" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icons-only"><span class="ui-button-icon-primary ui-icon ui-icon-gear"></span><span class="ui-button-text">Button with two icons and no text</span><span class="ui-button-icon-secondary ui-icon ui-icon-triangle-1-s"></span></button>
+
+</div>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.js"></script>
+<script type="text/javascript" src="../jquery.buttonlite.js"></script>
+<script type="text/javascript">
+$("button, input:submit, a", ".demo").buttonlite();
+</script>
+</body>
+</html>
