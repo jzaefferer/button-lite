@@ -1,4 +1,4 @@
-[jQuery Button Lite Plugin](http://github.com/jzaefferer/button-lite) - For buttons. Lots of buttons.
+jQuery Button Lite Plugin. For buttons. Lots of buttons.
 ================================
 
 This [jQuery](http://jquery.com) plugin uses the [jQuery UI](http://jqueryui.com) CSS framework
