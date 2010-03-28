@@ -21,10 +21,10 @@ and the destroy method. As buttonlite only binds events, calling destroy will on
 
 Usage:
 -------------
-Start with base button markup (can be whatever jQuery UI Button produces):
+Start with base button markup (can be whatever jQuery UI Button produces):  
 `<button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button"><span class="ui-button-text">A button element</span></button>`
 
-Then apply the buttonlite method:
+Then apply the buttonlite method:  
 `$("button").buttonlite();`
 
 [A few examples](http://jquery.bassistance.de/button-lite/demos/):
