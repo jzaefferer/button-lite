@@ -13,7 +13,7 @@
 
 var lastActive;
 
-$.widget( "ui.buttonlite", {
+$.widget( "bassistance.buttonlite", {
 	_create: function() {
 		var options = this.options;
 		
